@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# 图片里的基础项
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+*.o
+*.out
+results/
+
+# 针对 CUDA / C++ 开发的补充
+build/
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.pt
+*.pth
+*.safetensors
+wandb/
+.ipynb_checkpoints/
